@@ -1,0 +1,110 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.first-page{
+    background-color: #1F2937;
+}
+
+.about-website h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+h6{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.above-page h5{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.above-page{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    padding-bottom: 12px;
+    padding-top: 0;
+    }
+
+.header-link{
+    display: flex;
+    gap: 24px;
+}
+
+.about-website{
+    display: flex;
+    flex-direction: column;
+}
+
+.under-header{
+    display: flex;
+    justify-content: center;
+    margin-left: 64px;
+    margin-right: 64px;
+    gap: 84px;
+    padding-bottom: 150px;
+}
+
+.under-header img{
+    width: auto;
+    height: 300px;
+    padding-top: 32px;
+}
+
+.about-website button{
+    background-color: #3882F6;
+    max-width: 116px;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.about-website h6{
+    max-width: 400px;
+    font-weight: 400;
+}
+
+.second-page h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.under-random-info{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.box{
+    width: 100px; /* Задайте ширину за потребою */
+    height: 100px; /* Задайте висоту за потребою */
+    border: 3px solid #3882F6; /* Товщина, тип та колір ободку */
+    padding: 20px; 
+    border-radius: 16px;
+}
+
+.under-random-info h6{
+    color: grey;
+    font-weight: 400;
+    max-width: 150px;
+    text-align: center;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
